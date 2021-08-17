@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+header{
+    background-color: #141414;
+    padding: 10px;
+    display:flex;
+    justify-content: space-around;
+   
+}
+
+.barra li{
+    display: inline-block;
+    margin-top: 8px;
+    
+}
+.barra li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px; 
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+.barra li a:hover{
+    color: #ccc5b9;
+}
+
+header #logo p{
+    color: #eb5e28;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+#container{
+    background-color: #ccc5b9;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row;
+    padding: 80px;
+    align-content: space-around;
+}
+
+#container2{
+text-align: center;
+padding: 10px;
+}
+
+#container h1{
+    color: #252422c4;
+    font-size: 50px ;
+}
+#container h3{
+    color: #eb5e28;
+}
+
+#quadro{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 30px;
+}
+#quadro .q1{
+    width: 200px;
+    height: 200px;
+    background-color:#eb5e28;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#quadro p{
+    margin-top: 20px;
+    background-color:#d4521e;
+    width: 100%;
+    /* padding: 2px; */
+}
+
+#texto2{
+    font-size: 20px;
+    margin-top:55px;
+    font-size: 25px;
+    /* background-color: #252422c4; */
+    color: rgb(22, 22, 22);
+    border-bottom: 5px solid #d4521e;
+}
+
+.container_baixo{
+    background-color:#141414;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.descricao p{
+    color: white;
+    font-family: Atkinson Hyperlegible; 
+}
+
+.descricao h1{
+    color: #eb5e28;
+    margin-bottom: 10px;
+}
+
+.video{
+margin-left: 70px;
+}
+

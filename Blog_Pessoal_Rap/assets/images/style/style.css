@@ -107,9 +107,56 @@ padding: 10px;
 .descricao h1{
     color: #eb5e28;
     margin-bottom: 10px;
+    font-family: Atkinson Hyperlegible; 
+
 }
 
 .video{
 margin-left: 70px;
 }
 
+.container_baixo2{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(12, 12, 12);
+    padding: 100px;
+}
+
+.formulario{
+    padding: 20px;
+    max-height: 300px;
+    background-color: #161616;
+    color: white;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.formulario h2{
+    color: #eb5e28;
+    text-align: center;
+    width: 100%;
+}
+
+.formulario input{
+    padding: 7px;
+}
+
+.formulario button{
+    font-size: 20px;
+    padding: 5px;
+    width: 100%;
+    color: white;
+    background-color:#eb5e28;
+    border-style: none;
+}
+
+.descricao{
+    text-align: center;
+    margin-left: 20px;
+}
+
+.descricao  p{
+    font-family: Atkinson Hyperlegible; 
+    margin-bottom: 10px;
+}

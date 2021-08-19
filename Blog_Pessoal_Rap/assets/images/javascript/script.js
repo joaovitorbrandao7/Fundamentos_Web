@@ -7,14 +7,16 @@ let historia = window.document.querySelector('#historia');
 
 function validaNome(){
     let txt = document.querySelector('#txtNome');
+
     
     if(nome.value.length < 3){
-        txt.innerHTML = 'Nome Inválido';
-        txt.style.color = 'red'
+        //  txt.innerHTML = 'Nome Inválido';
+        //  txt.style.color = 'red'
+        nome.style.borderColor = 'red'
+
 
     }else{
-        txt.innerHTML = 'Nome Válido';
-        txt.style.color = 'green'
+        nome.style.borderColor = 'green'
     }
 }
 
@@ -22,12 +24,12 @@ function validaEmail(){
     let txt = document.querySelector('#txtEmail');
 
     if(email.value.indexOf('@')== -1 || email.value.indexOf('.')== -1 ){
-        txt.innerHTML = 'E-mail Inválido';
-        txt.style.color = 'red'
+        // txt.innerHTML = 'E-mail Inválido';
+        email.style.borderColor = 'red'
 
     }else{
-        txt.innerHTML = 'Email Válido';
-        txt.style.color = 'green'
+        email.style.borderColor = 'green'
+
     }
 }
 

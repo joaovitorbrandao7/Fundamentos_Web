@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+header{
+    background-color: #141414;
+    padding: 10px;
+    display:flex;
+    justify-content: space-around;
+   
+}
+
+.barra li{
+    display: inline-block;
+    margin-top: 8px;
+    
+}
+.barra li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px; 
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+.barra li a:hover{
+    color: #ccc5b9;
+}
+
+header #logo p{
+    color: #eb5e28;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+#container{
+    background-color: #f7efe2;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row;
+    padding: 80px;
+    align-content: space-around;
+}
+
+#container2{
+text-align: center;
+padding: 10px;
+}
+
+#container h1{
+    color: #252422c4;
+    font-size: 50px ;
+}
+#container h3{
+    color: #eb5e28;
+}
+
+#quadro{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 30px;
+}
+#quadro .q1{
+    width: 200px;
+    height: 200px;
+    background-color:#eb5e28;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#quadro p{
+    margin-top: 20px;
+    background-color:#d4521e;
+    width: 100%;
+    /* padding: 2px; */
+}
+
+#texto2{
+    font-size: 20px;
+    margin-top:55px;
+    font-size: 25px;
+    /* background-color: #252422c4; */
+    color: rgb(22, 22, 22);
+    border-bottom: 5px solid #d4521e;
+}
+
+.container_baixo{
+    background-color:#141414;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.descricao p{
+    color: white;
+    font-family: Atkinson Hyperlegible; 
+}
+
+.descricao h1{
+    color: #eb5e28;
+    margin-bottom: 10px;
+    font-family: Atkinson Hyperlegible; 
+
+}
+
+.video{
+margin-left: 70px;
+}
+
+.container_baixo2{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f7efe2;
+    padding: 100px;
+}
+
+.formulario{
+    padding: 30px;
+    max-height: 280px;
+    background-color: #161616;
+    color: white;
+    align-content: center;
+    justify-content: center;
+    border-bottom: 5px solid #eb5e28;
+    border-radius: 5px;
+    
+}
+
+.formulario label{
+    font-size: 20px; 
+}
+.formulario input{
+    margin-bottom: 7px;
+    width: 70%;
+    border-style: none;
+    border-radius: 2px;
+    padding: 3px;
+    border-bottom: 3px solid rgb(192, 192, 192);
+cursor: pointer;
+}
+
+.formulario button{
+    font-size: 20px;
+    padding: 5px;
+    width: 100%;
+    color: white;
+    background-color:#eb5e28;
+    border-style: none;
+    margin-top: 10px;
+
+}
+
+.formulario button:hover{
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.descricao{
+    margin-left: 20px;
+
+}
+
+.descricao h1{
+font-family: Bebas Neue;
+
+}
+
+.descricao  p{
+    font-family: Atkinson Hyperlegible; 
+    margin-bottom: 10px;
+}
+
+.descricao2{
+    text-align: right;
+}
+
+.descricao2 h1{
+    color:#eb5e28;
+    font-size:50px;
+}
+
+.descricao2 p{
+    color: black;
+    margin-bottom: 10px;
+}
